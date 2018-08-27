@@ -1,0 +1,80 @@
+#main{
+    padding: 80px 0;
+}
+.info-wrap{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.info-wrap .contact-info,
+.info-wrap .user-info{
+    float: left;
+    width: 50%;
+}
+.info-wrap .title{
+    margin-bottom: 40px;
+}
+.info-wrap .title p:first-child{
+    font-size: 30px;
+    color: #004097;
+}
+.info-wrap .title p:last-child{
+    font-size: 20px;
+    color: #8493AB;
+}
+
+.info-wrap .user-info{
+
+}
+.info-wrap .contact-info-text p{
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.info-wrap .contact-info-text p:last-child{
+    margin-bottom: 0;
+}
+
+.info-wrap .contact-info-text p img{
+    vertical-align:text-bottom;
+    margin-right: 10px;
+}
+
+.info-wrap .contact-info-text p label{
+    font-size:24px;
+    color: #181818;
+}
+
+.info-wrap .contact-info-text p span{
+    font-size: 20px;
+    color: #343434;
+    margin-right: 25px;
+}
+
+.info-wrap .user-info .input-wrap .one-input{
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+    width:285px;
+    height:40px;
+}
+.info-wrap .user-info .input-wrap .one-input .oLabel{
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    width: 60px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    color: #777777;
+
+}
+.info-wrap .user-info .input-wrap .one-input:last-child{
+    margin-right: 0;
+}
+.info-wrap .user-info .input-wrap .one-input input{
+    padding-left: 60px;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #C7C7C7;
+}
