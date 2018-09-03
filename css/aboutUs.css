@@ -1,176 +1,110 @@
 /*公司介绍*/
-.company{
-    width: 1220px;
+#company >.title{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#company .company{
     margin: 0 auto;
+    width: 1200px;
+    height: 360px;
+    background: url("../images/aboutUs/company_min.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
-.company .content-left{
-    float: left;
-}
-.company .content-right{
-    float:left;
-    margin-left: 80px;
-    width: 367px;
-    padding-top: 40px;
-}
-
-.company .content-title{
-    margin-bottom: 26px;
-}
-
-.company .content-text{
-    margin-top: 30px;
-    font-size: 18px;
+#company .company .content-right{
+    float: right;
+    padding:56px 50px 0 48px;
+    width: 600px;
+    font-size: 16px;
     line-height: 28px;
-    color: #666464;
+    text-indent: 2em;
 }
-.company .content-text p{
-    margin-bottom: 15px;
-}
-.company .content-text p:last-child{
-    margin-bottom: 0;
+
+#company .company .content-right .content-text p{
+    margin-bottom: 30px;
 }
 
 
 /*公司文化*/
-.company-culture {
-    width: 1220px;
+#company-culture{
+    padding: 70px 0 126px;
+}
+
+#company-culture>.title{
+    text-align: center;
+    margin-bottom: 106px
+}
+
+#company-culture .company-culture{
     margin: 0 auto;
+    width: 1200px;
 }
 
-.company-culture .content-title{
-  text-align: center;
-    margin-bottom: 53px;
-}
-
-.company-culture .culture-content{
-    width: 1220px;
-}
-
-.company-culture .culture-content .culture-content-item{
-    position: relative;
+#company-culture .company-culture .culture-item{
+    padding: 10px;
+    width: 600px;
     float: left;
-    width: 305px;
-    height: 314px;
-    background-color: #FFFFFF;
-    vertical-align: top;
-    cursor: default;
-    transition:all 0.3s;
-    -webkit-transition:all 0.3s;
-    -moz-transition:all 0.3s;
-    -o-transition: all 0.3s;
-}
-.company-culture .culture-content .culture-content-item:hover{
-    transform:scale(1.05,1.05);
-    -webkit-transform:scale(1.05,1.05);
-    -moz-transform: scale(1.05,1.05);
-    -o-transform: scale(1.05,1.05);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
-    z-index: 2;
-
+    margin-bottom: 60px;
 }
 
-.company-culture .culture-content .culture-content-item .item-title{
-    position: relative;
-    padding-left: 20px;
-    color: #0A2F67;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-.company-culture .culture-content .culture-content-item .item-title:after{
-    position: absolute;
-    content: '';
-    display: block;
-    height: 10px;
-    width: 10px;
-    left: 0;
-    top: 9px;
-    background: #0A2F67;
+#company-culture .company-culture .culture-item:nth-child(3),
+#company-culture .company-culture .culture-item:nth-child(4){
+    margin-bottom: 0;
 }
 
-.company-culture .culture-content .culture-content-item .item-text{
+#company-culture .company-culture .culture-item .left-box{
+    float: left;
+    width: 320px;
+    padding-left: 10px;
+}
+#company-culture .company-culture .culture-item .left-box .title_CN{
+    color: #4b2391;
     font-size: 16px;
-    line-height: 28px;
-    color: #666464;
+}
+#company-culture .company-culture .culture-item .left-box .title_EN{
+    color: #4b2391;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 
-.company-culture .culture-content .culture-content-item:nth-child(1){
-
-}
-.company-culture .culture-content .culture-content-item:nth-child(2),
-.company-culture .culture-content .culture-content-item:nth-child(4),
-.company-culture .culture-content .culture-content-item:nth-child(5),
-.company-culture .culture-content .culture-content-item:nth-child(7){
-    padding: 40px 40px 0 40px;
+#company-culture .company-culture .culture-item .left-box .text{
+    font-size: 16px;
+    text-indent: 2em;
+    color: #333333;
+    line-height: 24px;
 }
 
-.company-culture .culture-content .culture-content-item:nth-child(3){
-
-}
-
-.company-culture .culture-content .culture-content-item:nth-child(4){
-}
-
-.company-culture .culture-content .culture-content-item:nth-child(5){
-
-}
-.company-culture .culture-content .culture-content-item:nth-child(6){
-
-}
-
-.company-culture .culture-content .culture-content-item:nth-child(8){
-
+#company-culture .company-culture .culture-item .right-box{
+    float: right;
+    width: 225px;
 }
 
 /*我们的团队*/
-.ourTeam{
-    width: 1220px;
+#ourTeam{
+    position: relative;
     margin: 0 auto;
-}
-
-.ourTeam .content-title{
-   text-align: center;
-    margin-bottom: 95px;
-}
-
-
-.ourTeam .Team-content .content-left{
-    position: relative;
-    display: inline-block;
-    float: right;
-    top: 66px;
-    z-index: 2;
-    padding: 45px 414px 0 78px;
-    width: 884px;
-    height: 260px;
-    background: rgba(10,47,103,.5);
-    color: #FFFFFF;
-    line-height: 26px;
-    font-size: 16px;
+    padding-top: 40px;
+    width: 1200px;
+    height: 566px;
+    background: url("../images/aboutUs/TeamBg.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 
 }
-
-.ourTeam .Team-content .content-left:after{
+#ourTeam > .title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#ourTeam  .text{
     position: absolute;
-    content: '';
-    width: 24px;
-    height: 4px;
-    background: #0A2F67;
-    top: 30px;
-    left: 79px;
-
+    font-size: 16px;
+    color: #333333;
+    text-indent: 2em;
+    line-height: 28px;
+    top: 230px;
+    left: 640px;
+    right: 102px;
 }
 
-.ourTeam .Team-content .content-right{
-    position: relative;
-    display: inline-block;
-    float: right;
-    margin-left: -363px;
-    width: 606px;
-    height: 392px;
-}
-.ourTeam .Team-content .content-right img{
-    width: 606px;
-    height: 392px;
-}

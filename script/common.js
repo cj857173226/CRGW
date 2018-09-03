@@ -3,7 +3,6 @@ function saveLocal(pram){
 }
 
 $(function(){
-
      var targetId =  localStorage.getItem('targetId');
      if(targetId){
          var dom = '#'+targetId;
